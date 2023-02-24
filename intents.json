@@ -1,0 +1,39 @@
+{
+    "intents": [
+    {
+    "tag": "greeting",
+    "patterns": ["Hi", "Hello", "Hey", "Greetings", "What's up"],
+    "responses": ["Hello! How can I assist you today?", "Hi there! How can I help you?", "Hey, how can I assist you today?"]
+    },
+    {
+    "tag": "goodbye",
+    "patterns": ["Goodbye", "See you later", "Bye", "Until next time"],
+    "responses": ["Goodbye! Have a great day!", "Take care, see you soon!", "Bye for now!"]
+    },
+    {
+    "tag": "thanks",
+    "patterns": ["Thank you", "Thanks", "Appreciate it"],
+    "responses": ["You're welcome!", "No problem, happy to help!", "Anytime!"]
+    },
+    {
+    "tag": "about",
+    "patterns": ["What is science?", "What is the scientific method?", "What is a hypothesis?", "What is an experiment?", "What is a theory?"],
+    "responses": ["Science is the study of the natural world through observation and experimentation.", "The scientific method is a systematic approach to investigating phenomena in the natural world.", "A hypothesis is a proposed explanation for a phenomenon that can be tested through experimentation.", "An experiment is a procedure designed to test a hypothesis by collecting data and analyzing the results.", "A theory is a well-supported explanation for a broad range of phenomena that has been extensively tested and has not been disproven."]
+    },
+    {
+    "tag": "biology",
+    "patterns": ["What is biology?", "What is genetics?", "What is evolution?", "What is a cell?", "What is DNA?"],
+    "responses": ["Biology is the study of living organisms and their interactions with the environment.", "Genetics is the study of heredity and how traits are passed down from one generation to the next.", "Evolution is the process by which species change over time through natural selection.", "A cell is the basic unit of life, and all living organisms are composed of one or more cells.", "DNA is the genetic material that carries the instructions for the development and function of all living organisms."]
+    },
+    {
+    "tag": "chemistry",
+    "patterns": ["What is chemistry?", "What is an element?", "What is a molecule?", "What is a chemical reaction?", "What is the periodic table?"],
+    "responses": ["Chemistry is the study of the composition, structure, properties, and reactions of matter.", "An element is a substance made up of atoms with the same number of protons in their nucleus.", "A molecule is a group of atoms held together by chemical bonds.", "A chemical reaction is a process that involves the rearrangement of atoms and molecules to form new substances.", "The periodic table is a chart that organizes the elements based on their properties and atomic structure."]
+    },
+    {
+    "tag": "physics",
+    "patterns": ["What is physics?", "What is motion?", "What is energy?", "What is gravity?", "What is the universe?"],
+    "responses": ["Physics is the study of matter, energy, and the fundamental forces that govern the behavior of the universe.", "Motion is the change in position of an object over time.", "Energy is the ability to do work or cause change.", "Gravity is the force that attracts two objects with mass towards each other.", "The universe is all of space and time and its contents, including planets, stars, galaxies, and all matter and energy."]
+    }
+  ]
+}
